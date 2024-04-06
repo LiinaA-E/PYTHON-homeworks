@@ -3,7 +3,7 @@
 #accept input for the temperature value, and accurately perform the conversion (use IF and/or ELSE).
 #Output should be displayed with formatted strings showing both the original and converted temperatures.
 
-```py
+
 try:
   print("Welcome to conversion program, where we convert temperatures between Celsius and Fahrenheit.")
   choice = input("Would you like to convert from Celsius or Fahrenheit? ").capitalize()
@@ -23,4 +23,4 @@ try:
     
 except Exception as e:
   print(f'Wrong input, exeption: {e}')
-  ```
+
